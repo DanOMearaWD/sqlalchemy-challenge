@@ -15,7 +15,6 @@ The Weather API is a Flask application that provides access to weather data from
 
 The project is organized into the following directories and files:
 
-- **weather-api/**: Root directory of the Weather API project.
   - **SurfsUp/**: Contains the main application files for the API.
     - **app.py**: Main application file to run the Flask API.
     - **climate_starter.ipynb**: Jupyter Notebook for initial data exploration and analysis.
