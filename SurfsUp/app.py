@@ -40,12 +40,12 @@ def welcome():
     """List all available API routes."""
     return (
         f"Available Routes:<br/>"
-        f"/api/v1.0/precipitation<br/>"
-        f"/api/v1.0/stations<br/>"
-        f"/api/v1.0/tobs<br/>"
-        f"Replace <start> and <end> with Date format: YYYY-MM-DD<br/>"
-        f"/api/v1.0/<start><br/>"
-        f"/api/v1.0/<start>/<end><br/>"
+        f"&nbsp;&nbsp;&nbsp;&nbsp;/api/v1.0/precipitation<br/>"
+        f"&nbsp;&nbsp;&nbsp;&nbsp;/api/v1.0/stations<br/>"
+        f"&nbsp;&nbsp;&nbsp;&nbsp;/api/v1.0/tobs<br/>"
+        f"Replace &lt;start&gt; and &lt;end&gt; with Date format: YYYY-MM-DD<br/>"
+        f"&nbsp;&nbsp;&nbsp;&nbsp;/api/v1.0/&lt;start&gt;<br/>"
+        f"&nbsp;&nbsp;&nbsp;&nbsp;/api/v1.0/&lt;start&gt;/&lt;end&gt;<br/>"
     )
 
 
