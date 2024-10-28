@@ -28,3 +28,6 @@ The project is organized into the following directories and files:
 - **Flask**: A web framework for building the API.
 - **SQLAlchemy**: An ORM for interacting with the SQLite database.
 - **SQLite**: A lightweight database for storing weather data.
+- **Jupyter Notebook**: An interactive environment for data exploration and analysis.
+- **Pandas**: A data manipulation library for handling structured data.
+- **Matplotlib**: A plotting library for visualizing data.
