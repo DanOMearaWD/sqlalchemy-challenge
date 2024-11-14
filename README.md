@@ -1,10 +1,11 @@
-# sqlalchemy-challenge
- # Weather API
+# SQLAlchemy Challenge: Weather API
 
 ## Description
+
 The Weather API is a Flask application that provides access to weather data from a SQLite database. It allows users to retrieve precipitation and temperature observations from various weather stations in Hawaii. This API offers endpoints for accessing recent weather data, including temperature observations for the most active stations over the past year.
 
 ## API Endpoints
+
 - **`/api/v1.0/precipitation`**: Returns precipitation data for the last 12 months.
 - **`/api/v1.0/stations`**: Returns a list of weather stations.
 - **`/api/v1.0/tobs`**: Returns temperature observations for the most active station over the last 12 months.
@@ -15,16 +16,16 @@ The Weather API is a Flask application that provides access to weather data from
 
 The project is organized into the following directories and files:
 
-  - **SurfsUp/**: Contains the main application files for the API.
-    - **app.py**: Main application file to run the Flask API.
-    - **climate_starter.ipynb**: Jupyter Notebook for initial data exploration and analysis.
-  - **Resources/**: Contains data files used by the application.
-    - **hawaii.sqlite**: SQLite database containing weather data.
-    - **hawaii_measurements.csv**: CSV file with measurement data.
-    - **hawaii_stations.csv**: CSV file with station information.
-
+- **SurfsUp/**
+  - **app.py**: Main application file to run the Flask API.
+  - **climate_starter.ipynb**: Jupyter Notebook for initial data exploration and analysis.
+- **Resources/**
+  - **hawaii.sqlite**: SQLite database containing weather data.
+  - **hawaii_measurements.csv**: CSV file with measurement data.
+  - **hawaii_stations.csv**: CSV file with station information.
 
 ## Technologies Used
+
 - **Flask**: A web framework for building the API.
 - **SQLAlchemy**: An ORM for interacting with the SQLite database.
 - **SQLite**: A lightweight database for storing weather data.
